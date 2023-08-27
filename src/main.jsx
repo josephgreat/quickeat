@@ -8,8 +8,8 @@ import Fonts from "./assets/Fonts.jsx";
 const themeConfig = {
   colors: {
     primary: { 900: "#FF6C01", 500: "#EBFF00" },
-    secondary: { 900: "#FFDBBA", 500: "#FFE9D4" },
-    tertiary: {900: "#973600", 500: "#A46E3C", 300: "#A46E3C99"},    
+    secondary: { 900: "#FFDBBA", 500: "#FFE9D4", 300: "#FFE9D4" },
+    tertiary: {900: "#973600", 500: "#A46E3C", 300: "#A46E3C99", 200: "#FFBE82"},    
   },
   fonts:{
     heading: "Lato",
