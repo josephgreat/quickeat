@@ -13,9 +13,9 @@ import React from "react";
 import Btn from "../Btn";
 import { AiOutlineGoogle } from "react-icons/ai";
 
-function AuthLandingPage() {
+function AuthLandingPage({incrementPageIndex}) {
   return (
-    <Container bg="primary.900" px="2.8rem" pt="4" pb="10">
+    <Container bg="primary.900" minH="100vh" px="2.8rem" pt="4" pb="10">
       <Text textAlign={"right"}>Skip</Text>
       <Flex
         flexDir={"column"}
@@ -42,7 +42,7 @@ function AuthLandingPage() {
             _placeholder={{ fontSize: "xs" }}
           />
         </Box>
-        <Btn bg="tertiary.900" color={"white"}>
+        <Btn bg="tertiary.900" color={"white"} onClick={incrementPageIndex}>
           Continue
         </Btn>
         <Flex alignItems={"center"} gap="2" justifyContent={"center"} px="4">
